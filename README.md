@@ -13,6 +13,7 @@
 
   - [Formatting](#formatting)
   - [Whitespace](#whitespace)
+  - [Classes and Ids](#classes-and-ids)
 
 ### Formatting
 
@@ -101,6 +102,43 @@ body content goes here
       <h1>
         heading content goes here
       </h1>
+    </section>    
+  </body>
+</html>
+```
+
+**[back to top](#table-of-contents)**
+
+### Classes and Ids
+
+* Class and Id names should be surrounded by double quotes
+
+**Bad**
+
+```html
+<html>
+  <head>
+    head content goes here
+  </head>
+  <body>
+    <section   class=' section ' id=' section1'>
+      section content here
+    </section>
+  </body>
+</html>
+
+```
+
+**Good**
+
+```html
+<html>
+  <head>
+    head content goes here
+  </head>
+  <body>
+    <section class="section" id="section1">
+      section content goes here
     </section>    
   </body>
 </html>
