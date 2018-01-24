@@ -14,6 +14,7 @@
   - [Formatting](#formatting)
   - [Whitespace](#whitespace)
   - [Classes and Ids](#classes-and-ids)
+  - [Keeping Elements on One Line](#keeping-elements-on-one-line)
 
 ### Formatting
 
@@ -143,6 +144,30 @@ body content goes here
   </body>
 </html>
 ```
+
+**[back to top](#table-of-contents)**
+
+### Keeping Elements on One Line
+
+* Elements that are 80 characters or less including their content can be kept on one line.
+
+```html
+<html>
+  <head>
+    head content goes here
+  </head>
+  <body>
+    <section>
+      This element is longer than 80 characters in length and should be broken
+      onto multiple lines.
+    </section>
+    <section>This element is less than 80 characters</section>
+  </body>
+</html>
+
+```
+
+* **Pro Tip:** The 'Column' number in the bottom left corner of Sublime will tell you how many characters in the cursor is at any given time.
 
 **[back to top](#table-of-contents)**
 
