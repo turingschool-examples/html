@@ -100,9 +100,7 @@ body content goes here
   <body>
     body content goes here
     <section>
-      <h1>
-        heading content goes here
-      </h1>
+      <h1>heading content goes here</h1>
     </section>    
   </body>
 </html>
@@ -117,32 +115,17 @@ body content goes here
 **Bad**
 
 ```html
-<html>
-  <head>
-    head content goes here
-  </head>
-  <body>
-    <section   class=' section ' id=' section1'>
-      section content here
-    </section>
-  </body>
-</html>
-
+<section   class=' section ' id=' section1'>
+  section content here
+</section>
 ```
 
 **Good**
 
 ```html
-<html>
-  <head>
-    head content goes here
-  </head>
-  <body>
-    <section class="section" id="section1">
-      section content goes here
-    </section>    
-  </body>
-</html>
+<section class="section" id="section1">
+  section content goes here
+</section>    
 ```
 
 **[back to top](#table-of-contents)**
@@ -152,19 +135,10 @@ body content goes here
 * Elements that are 80 characters or less including their content can be kept on one line.
 
 ```html
-<html>
-  <head>
-    head content goes here
-  </head>
-  <body>
-    <section>
-      This element is longer than 80 characters in length and should be broken
-      onto multiple lines.
-    </section>
-    <section>This element is less than 80 characters</section>
-  </body>
-</html>
-
+<section>
+  This element is longer than 80 characters in length and should be broken
+  onto multiple lines.
+</section>
 ```
 
 * **Pro Tip:** The 'Column' number in the bottom left corner of Sublime will tell you how many characters in the cursor is at any given time.
@@ -172,4 +146,3 @@ body content goes here
 **[back to top](#table-of-contents)**
 
 # </>
-
